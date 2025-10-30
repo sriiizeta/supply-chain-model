@@ -1,0 +1,32 @@
+# Virtual environment
+venv/
+.env
+
+# Python cache and compiled files
+_pycache_/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.log
+
+# IDE / Editor configs
+.vscode/
+.idea/
+*.swp
+
+# SQLite database (optional – only ignore if you don’t want to upload it)
+scrm.db
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Model artifacts
+*.joblib
+*.pkl
+*.h5
+
+# Uploads or temporary files
+uploads/
+temp/
